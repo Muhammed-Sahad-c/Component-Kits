@@ -1,0 +1,46 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.horizontal-scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontal-scroll-container {
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 0.3rem;
+}
+
+.horizontal-scroll-content {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.horizontal-scroll-content div {
+  width: 300px;
+  height: 200px;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+/* Additional Styles */
+
+h2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
+.horizontal-scroll-container-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.2rem;
+}
+
+button {
+  padding: 0.5rem;
+}
